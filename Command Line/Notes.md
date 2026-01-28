@@ -27,3 +27,14 @@ To delete we use Remove-Item. We can remove the file and directory at the same t
 
 Copy-Item -Path .\... -Destination .\...
 
+Powershell is able to pass objects through piping |
+-Where-Object is used to filter 
+Select-String used to search for text patterns in files
+
+---------------------------------------------System and network--------------
+Get-ComputerInfo--> gets operating system information
+systeminfo for less details
+Get-LocalUser --> tells you all the accounts
+Get-NetIPConfiguration == ipconfig
+
+
